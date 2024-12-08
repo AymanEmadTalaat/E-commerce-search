@@ -1,0 +1,43 @@
+.card {
+  width: 220px;
+  margin-inline: auto;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card > img {
+  width: 100%;
+  height: 100px;
+  object-fit: fit;
+}
+
+.card h2 {
+  font-size: 12px;
+}
+
+.star-reviews,
+.price-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.star-reviews {
+  gap: 1.2rem;
+}
+
+.price-cart {
+  gap: 6rem;
+}
+
+.star {
+  color: gold;
+}
